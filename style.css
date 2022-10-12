@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+.img{
+    width: 100vw;
+    height: 45vh;
+}
+.coin1{
+    width: 150px;
+    height: 150px;
+    border: 3px solid #7579E7;
+    border-radius: 50%;
+    position: absolute;
+    top: 20%;
+    left: 44%;
+}
+.coin2{
+    width: 135px;
+    height: 135px;
+    clip-path: circle();
+    position: absolute;
+    top: 21.3%;
+    left: 44.6%;
+}
+.bar{
+    display: flex;
+    justify-content: center;
+}
+.bar .bar2{
+    display: flex;
+    flex-direction: column ;
+}
+.bar2 .b1{
+    display: flex;
+    justify-content: center;
+    color: #707070;
+    font: normal normal bold 20px/32px Segoe UI;
+}
+.bar2 .b2{
+    display: flex;
+    justify-content: center;
+    color: #B7B7B7;
+    font: normal normal bold 16px/23px Segoe UI;
+}
+.bar2 .a1{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+.bu{
+    display: flex;
+    justify-content: center;
+}
+.bu .b1{
+    width: 120px;
+    height: 30px;
+    margin-right: 5px;
+    font: normal normal normal 13px/15px Segoe UI;
+    background-color: #7579E7;
+    color: #FFF;
+    border: none;
+    border-radius: 10px;
+}
+.bu .b2{
+    width: 120px;
+    height: 30px;
+    font: normal normal normal 13px/15px Segoe UI;
+    background-color: #E5E5E5;
+    color: #7579E7;
+    border: none;
+    border-radius: 10px;
+}
+.main{
+    height: 20vh;
+   
+    display: flex;
+    justify-content: space-between;
+    margin: 0 5%;
+}
+.main .left{
+    display: flex;
+    flex-direction: row;
+}
+.main h3 {
+    color: #7579E7;
+    font: normal normal bold 23px/32px Segoe UI;
+}
+.left p{
+    color: #7579E7;
+    font: normal normal 600 18px/25px Segoe UI;
+}
+.left select{
+    width: 150px;
+    height: 30px;
+    margin-left: 10px;
+    color: #9AB3F5;
+    border: 3px solid #9AB3F5;
+    border-radius: 10px;
+}
+.photo{
+    margin-left: 7%;
+}
+.photo .img{
+    width: 30%;
+    border: 2px solid #A3D8F4;
+    border-radius: 10px;
+}
+.photo button{
+    width: 120px;
+    height: 30px;
+    font: normal normal normal 13px/15px Segoe UI;
+    background-color: #E5E5E5;
+    color: #7579E7;
+    border: none;
+    border-radius: 10px;
+    margin: 5% 42% ;
+    
+}
